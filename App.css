@@ -1,0 +1,47 @@
+.container {
+  max-width: 420px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.filters {
+  margin: 15px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+}
